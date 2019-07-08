@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>192.168.202.130</value>
+        <description>The directory shared by RegionServers.</description>
+    </property>
+
+    <!--<property>-->
+        <!--<name>hbase.zookeeper.property.clientPort</name>-->
+        <!--<value>2181</value>-->
+    <!--</property>-->
+    <!--<property>-->
+        <!--<name>hbase.master</name>-->
+        <!--<value>192.168.202.130:60000</value>-->
+    <!--</property>-->
+    <!--<property>-->
+        <!--<name>hbase.rpc.timeout</name>-->
+        <!--<value>20000</value>-->
+    <!--</property>-->
+    <!--<property>-->
+        <!--<name>hbase.client.operation.timeout</name>-->
+        <!--<value>30000</value>-->
+    <!--</property>-->
+    <!--<property>-->
+        <!--<name>hbase.client.scanner.timeout.period</name>-->
+        <!--<value>200000</value>-->
+    <!--</property>-->
+    <!--&lt;!&ndash;<property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<name>HConstants.HBASE_REGIONSERVER_LEASE_PERIOD_KEY</name>&ndash;&gt;-->
+        <!--&lt;!&ndash;<value>120000</value>&ndash;&gt;-->
+    <!--&lt;!&ndash;</property>&ndash;&gt;-->
+</configuration>
