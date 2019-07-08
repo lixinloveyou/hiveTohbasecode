@@ -15,7 +15,6 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 import java.io.IOException;
@@ -121,12 +120,6 @@ public class GeneratePutHFlileAndBukloadToHbase {
         jobToHfile.setMapOutputValueClass(Put.class);
         jobToHfile.setOutputFormatClass(HFileOutputFormat2.class);
 
-
-
-
-        //final String HBASE_ZOOKEEPER_QUORUM="hbase.zookeeper.quorum";
-
-        //hbaseconfiguration.set(HBASE_ZOOKEEPER_QUORUM,"192.168.202.130:2181,192.168.202.129:2181,192.168.202.131:2181");
         Connection connection =null;
         connection= ConnectionFactory.createConnection(hbaseconfiguration);
 

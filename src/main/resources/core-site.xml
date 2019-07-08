@@ -21,8 +21,4 @@
                 <name>fs.defaultFS</name>
                 <value>hdfs://master:9000</value>
         </property>
-        <!--<property>-->
-                <!--<name>hadoop.tmp.dir</name>-->
-                <!--<value>/root/hadoop/hadoop-2.7.6/tmp</value>-->
-        <!--</property>-->
 </configuration>
