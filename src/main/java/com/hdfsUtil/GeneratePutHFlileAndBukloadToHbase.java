@@ -125,7 +125,7 @@ public class GeneratePutHFlileAndBukloadToHbase {
         //FileInputFormat.setInputPaths(job,new Path(dfsArgs[0]));
         //FileOutputFormat.setOutputPath(job,new Path(dfsArgs[1]));
 //        FileInputFormat.setInputPaths(job, new Path("hdfs://beh:9000/bb2h"));
-//        FileOutputFormat.setOutputPath(job, new Path("hdfs://beh:9000/out/mid/"));
+//        //FileOutputFormat.setOutputPath(job, new Path("hdfs://beh:9000/out/mid/"));
         FileInputFormat.setInputPaths(job, new Path("hdfs://192.168.202.129:9000/prodata"));
         FileOutputFormat.setOutputPath(job, new Path("hdfs://192.168.202.129:9000/out/mid"));
         int result1 = job.waitForCompletion(true) ? 0 : 1;
